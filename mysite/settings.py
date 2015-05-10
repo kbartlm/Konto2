@@ -110,10 +110,10 @@ SECURE_PROXY_SSL_HEADER=('HTTP_X_FORWARDED_PROTO','https')
 ALLOWED_HOSTS=['*']
 STATIC_ROOT='staticfiles'
 
-DEBUG=false
+DEBUG=False
 
 try:
     from .local_settings import *
-    except ImportError:
-        pass
+except ImportError:
+    pass
     
