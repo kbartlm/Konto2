@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi
+python-3.4.2
